@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 header{
     background-image: url(mes-images/image-header.jpg);
@@ -22,12 +23,28 @@ header{
 .mytitle{
     font-size: 56px;
     text-align: center;
-    position: relative;
-    top: 64px;
     letter-spacing: 2px;
     
 }
 img{
     width: 100%;
-    height:300px;
+    height:350px;
+}
+.box{
+    text-align: center;
+    padding: 32px 7px;
+}
+.lien1{
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid rgb(252, 244, 171);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.lien2{
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid rgb(252, 226, 171);
+    border-radius: 3px;
+    cursor: pointer;
 }
