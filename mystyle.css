@@ -128,18 +128,22 @@ footer{
     background-color: #90D4C5;
     color:  hsl(168, 34%, 41%);
     text-align: center;
-    padding: 5px;
+    padding: 64px;
     
 }
 .foot{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 footer a{
-    
-    padding: 8px;
-    margin-bottom: 20px;
+    margin: 20px 0px 50px 0px;
     text-decoration: none;
     color:  hsl(168, 34%, 41%);
+}
+.svg{
+   display: flex;
+   justify-content:space-evenly;
+   margin: 5px 30px;
+   
 }
