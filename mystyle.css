@@ -188,10 +188,29 @@ footer a{
     img{
         width: 50%;
     }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
     .case{
         display: flex;
         width:50% ;
     }
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px 100px;
+        
+    }
+    .svg{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5px 300px;
+        
+     }
     
 
 }
