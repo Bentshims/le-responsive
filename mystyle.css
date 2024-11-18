@@ -13,6 +13,26 @@ header{
     padding: 7px 7px 180px 7px;
     color: white;
 }
+.mynav{
+    display: flex;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+    display: none;
+    margin: 20px;
+}
+header button{
+    border-radius: 14px;
+    border: none;
+    height: 32px;
+    position: relative;
+    top: 10px;
+    padding: 0px 15px;
+    display: none;
+    
+}
 .head{
     
     display: flex;
@@ -146,4 +166,17 @@ footer a{
    justify-content:space-evenly;
    margin: 5px 30px;
    
+}
+@media(min-width: 768px){
+    .icons{
+        display: none;
+    }
+    header a{
+        display: flex;
+    }
+    header button{
+        display: flex;
+        align-items: center;
+    }
+
 }
